@@ -1,7 +1,7 @@
 <?php 
 	
 	include_once "banco.php";
-
+	header("Access-Control-Allow-Origin: *");
 
 
 	$response = array();
