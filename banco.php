@@ -48,11 +48,20 @@
 		
 
 		$conn = null;
+		echo "database initialized";
+	}	
 
+	function deleteDB()
+	{
+		$dbName = "wtBack";
 
+		$conn = getDB(false);
+		$conn->exec( "DROP DATABASE $dbName");
+		
+		
+		
+		$conn = null;
+		echo "database deleted";
 	}
-		
-		
-
 
 ?>

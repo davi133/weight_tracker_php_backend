@@ -9,14 +9,14 @@
 		echo "<br>";
 	}
 
-	$db = getDB();
+	//$db = getDB();
 	
-	if ($db != null)
-	{
-		echo "sucesso\n</br>";
-	}
+	
 
-	echo "bom dia";
+	//echo "bom dia";
+	echo "👍";
+	initializeDB();
+
 
 	
 
